@@ -370,10 +370,25 @@
                     </li>
                 </ul>
             </div>
+            <div class='footer-bottom'>
+                <p class='footer-subscribe'>Subscribe</p>
+                <form class='footer-form'>
+                    <label aria-label='footer email input'>
+                        <input type="email" name='footer-mail' class='footer-input' placeholder='E-mail'>
+                        <button type='submit' class='footer-button'>Subscribe
+                            <span>
+                                <svg class='button-icons' width='24' height='24'>
+                                    <use href='./images/icons.svg#icon-Frame-white'></use>
+                                </svg>
+                            </span>
+                        </button>
+                    </label>
+                </form>
+            </div>
         </div>
     </footer>
     <!-- -------------------------------------modal----------------------- -->
-    <div class='backdrop is-hidden' data-modal>
+    <!-- <div class='backdrop is-hidden' data-modal>
         <div class='modal'>
             <button type='button' data-modal-close class='modal-button'>
                 <svg class='modal-button-icons' width='8' height='8'>
@@ -415,10 +430,10 @@
                         placeholder='Text input'></textarea>
                 </div>
                 <div class='modal-check-field'>
-                    <!-- <svg class='modal-icons' width='16' height='16'>
+                    - <svg class='modal-icons' width='16' height='16'>
                         <use href='./images/icons.svg#icon-Checkbox-1'></use>
                     </svg> -->
-                    <input type="checkbox" id='user-privacy' name='user-privacy' value='true' class='visually-hidden'>
+    <!-- <input type="checkbox" id='user-privacy' name='user-privacy' value='true' class='visually-hidden'>
                     <label for="user-privacy" class='modal-check-text'>
                         <span modal-checkbox>
                             <svg class='modal-icons' width='10' height='8'>
@@ -427,8 +442,8 @@
                         </span>
                         I accept the terms and conditions of the <a href="" class='modal-check-link'>Privacy
                             Policy</a></label>
-                </div>
-                <!-- <div>
+                </div> -->
+    <!-- <div>
                     <label for="user-city" class='modal-label'>City</label>
                     <select name="user-city" id="user-sity" class='modal-input' multiple>
                         <option value="london">London</option>
@@ -436,7 +451,7 @@
                         <option value="poznan">Poznan</option>
                     </select>
                 </div> -->
-                <!-- <div class='modal-field'>
+    <!-- <div class='modal-field'>
                     <label for="White">White</label>
                     <input type="radio" id='White' name='color-type' value='White'>
                     <label for="Black">Black</label>
@@ -448,11 +463,11 @@
                     <label for="Black">Black</label>
                     <input type="checkbox" id='Black' name="color-type" value='Black'>
                 </div> -->
-                <button type='submit' class='modal-form-button'>Send</button>
+    <!-- <button type='submit' class='modal-form-button'>Send</button>
             </form>
         </div>
     </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
 </body>
 
