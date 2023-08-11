@@ -785,7 +785,7 @@ img {
 }
 
 
-.backdrop .is-hidden {
+.backdrop.is-hidden {
    opacity: 0;
    visibility: hidden;
    pointer-events: none;
@@ -884,15 +884,13 @@ img {
 
 .modal-input:focus {
    border-color: #4D5AE5;
+}
+
+.modal-input:focus+.modal-icons {
    fill: #4D5AE5;
 }
 
-.modal-input:focus .modal-icons {
-   fill: #4D5AE5;
-   border-color: #4D5AE5;
-}
-
-.modal-input:checked .modal-checkbox {
+.modal-input:checked+.modal-check-text .modal-checkbox {
    background-color: #404bbf;
    border: none;
    fill: #F4F4FD;
