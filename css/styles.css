@@ -527,7 +527,7 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #FFFFFF;
-   margin-right: 192px;
+   /* margin-right: 192px; */
    margin-bottom: 16px;
 }
 
@@ -564,8 +564,9 @@ img {
 }
 
 .footer-bottom {
-   display: flex;
+   /* display: flex; */
    justify-content: space-between;
+   margin-left: 80px;
 }
 
 .footer-subscribe {
@@ -577,7 +578,7 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
    margin-bottom: 16px;
-   margin-top: 100px;
+
 }
 
 .footer-form {
@@ -595,8 +596,6 @@ img {
    border: 1px solid var(--white, #FFF);
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
    background: var(--navyblue, #2E2F42);
-   margin-top: 140px;
-   margin-left: 8px;
    background-color: transparent;
    font-size: 12px;
    line-height: 1.5;
