@@ -632,8 +632,8 @@ img {
    background: var(--iris, #4D5AE5);
    width: 165px;
    height: 40px;
-   margin-right: 159px;
-   margin-bottom: 132px;
+   /* margin-right: 159px; */
+   /* margin-bottom: 132px; */
    min-width: 165px;
    cursor: pointer;
 }
@@ -840,7 +840,7 @@ img {
 }
 
 .modal-title {
-   padding-top: 72px;
+   /* padding-top: 72px; */
    margin-bottom: 16px;
    color: var(--navyblue, #2E2F42);
    text-align: center;
