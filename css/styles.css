@@ -638,6 +638,10 @@ img {
    cursor: pointer;
 }
 
+.footer-button-icons {
+   margin-left: 16px;
+}
+
 .footer-button:hover {
    background-color: var(--ocean);
 }
