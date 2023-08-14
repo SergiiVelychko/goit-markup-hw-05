@@ -624,10 +624,10 @@ img {
    line-height: 1.5;
    letter-spacing: 0.04em;
    display: flex;
-   padding: 8px 24px;
+   /* padding: 8px 24px; */
    justify-content: center;
    align-items: center;
-   gap: 16px;
+   /* gap: 16px; */
    border-radius: 4px;
    background: var(--iris, #4D5AE5);
    width: 165px;
